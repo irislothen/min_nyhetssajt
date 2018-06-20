@@ -1,0 +1,111 @@
+body {
+   padding: 100px;
+   padding-top: 5px;
+   background-color: #D8D7D9;
+}
+
+h1 {
+	 font-family: 'Futura';
+	 font-size: 150px;
+   letter-spacing: 5px;
+   color: white;
+   text-align: center;
+   padding: 2px;
+   padding-top: 5px;
+}
+
+h2 {
+  font-family: times;
+}
+
+.vr {
+  font-family: Futura;
+  text-align: center;
+  border: 1px solid antiquewhite;
+  color: whitesmoke;
+  border-radius: 10px;
+  padding: 3px 10px;
+  display: inline-block;
+  background-color: #FF4F21;
+}
+
+.universe {
+  font-family: Futura;
+  text-align: center;
+  border: 1px solid antiquewhite;
+  color: whitesmoke;
+  border-radius: 10px;
+  padding: 3px 10px;
+  display: inline-block;
+  background-color: #FF4F21;
+}
+
+.universe:hover {
+  background-color: lightblue;
+}
+
+.vr:hover {
+  background-color: lightblue;
+}
+
+.readmore:hover {
+  background-color: lightblue;
+}
+
+.news:hover {
+  background-color: lightblue;
+}
+
+.readmore {
+  font-family: Futura;
+  text-align: center;
+  color: #FF530D;
+  display: inline-block;
+}
+
+.articles {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.hide-details {
+  display: none;
+}
+
+.news {
+	width: 300px;
+	margin: 5px;
+	padding: 20px;
+	background-color: antiquewhite;
+}
+
+img {
+	width: 100%;
+}
+
+/* For tablet */
+@media (min-width: 700px) and (max-width: 1140px) {
+  .news {
+    width: 40%;
+  }
+}
+
+/* For mobile */
+@media (max-width: 700px) {
+  body {
+    padding: 30px;
+  }
+
+	h1 {
+		font-size: 40px;
+	}
+
+  .articles {
+    display: block;
+  }
+
+  .news {
+    width: 90%;
+  }
+}
